@@ -8,6 +8,7 @@ import { addUsers } from '../../features/user/userSlice';
 const Login = () => {
   const [message, setMessage] = useState("");
   const [userBtn, setUserBtn] = useState(false);
+  console.log(message, userBtn)
   const API_URL = "http://localhost:4000/auth/login";
   const [data, setData] = useState({
     email: "",

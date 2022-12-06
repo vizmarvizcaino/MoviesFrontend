@@ -10,6 +10,7 @@ const SubmitComentario = ({ id }) => {
   const [btn, setBtn] = useState(false);
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");
+  console.log(message)
   const [user, setUser] = useState({
     contenido: "",
     id,
