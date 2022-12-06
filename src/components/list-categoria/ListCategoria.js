@@ -5,7 +5,7 @@ import '../list-categoria/listcategoria.css';
 
 const ListCategoria = () => {
   const [categorias, setCategorias] = useState([]);
-  const API_URL = 'http://localhost:4000/categorias';
+  const API_URL = 'https://express-service-zhot.onrender.com/categorias';
   function getCategorias() {
     return new Promise((resolve, reject) => {
       axios(API_URL)

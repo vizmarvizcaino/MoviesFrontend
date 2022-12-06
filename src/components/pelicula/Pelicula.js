@@ -8,7 +8,7 @@ import SubmitComentario from '../comentario/SubmitComentario';
 const Pelicula = () => {
   const [movie, setMovie] = useState([]);
   const { id } = useParams();
-  const API_URL = `http://localhost:4000/pelicula/${id}`;
+  const API_URL = `https://express-service-zhot.onrender.com/${id}`;
 
   function getMovie() {
     return new Promise((resolve, reject) => {

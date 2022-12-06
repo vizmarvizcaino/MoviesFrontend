@@ -6,7 +6,7 @@ import './submitcomentario.css';
 const SubmitComentario = ({ id }) => {
   let options = JSON.parse(localStorage.getItem('message'));
   let users = options.nombres || " ";
-  const API_URL = "http://localhost:4000/comentario";
+  const API_URL = "https://express-service-zhot.onrender.com/comentario";
   const [btn, setBtn] = useState(false);
   const [error, setError] = useState(false);
   const [message, setMessage] = useState("");

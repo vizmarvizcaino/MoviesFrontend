@@ -8,7 +8,7 @@ import '../comentario/comentario.css';
 const Comentario = () => {
   const [comentarios, setComentarios] = useState([]);
   const { id } = useParams();
-  const API_URL = `http://localhost:4000/peliculas/${id}/comentarios`;
+  const API_URL = `https://express-service-zhot.onrender.com/${id}/comentarios`;
 
   function getComentario() {
     return new Promise((resolve, reject) => {

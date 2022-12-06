@@ -8,7 +8,7 @@ const Registrarse = () => {
   const [message, setMessage] = useState("");
   console.log(message);
   const [userBtn, setUserBtn] = useState(false);
-  const API_URL = "http://localhost:4000/auth/register";
+  const API_URL = "https://express-service-zhot.onrender.com/auth/register";
   const [user, setUser] = useState({
     nombres: "",
     email: "",

@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export function PeticionApi() {
   const [pelicula, setPelicula] = useState([]);
-  const API_URL = 'http://localhost:4000/peliculas';
+  const API_URL = 'https://express-service-zhot.onrender.com/peliculas';
 
 
   function getPeliculaApi() {

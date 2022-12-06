@@ -4,7 +4,7 @@ import '../add-pelicula/addpelicula.css';
 
 const AddPelicula = () => {
   let options = JSON.parse(localStorage.getItem('message'));
-  const API_URL = "http://localhost:4000/pelicula";
+  const API_URL = "https://express-service-zhot.onrender.com/pelicula";
   const [movies, setMovies] = useState({
     nombre: "",
     sinopsis: "",
