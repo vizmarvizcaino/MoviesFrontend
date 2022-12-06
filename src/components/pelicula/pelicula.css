@@ -1,0 +1,27 @@
+.container-detalles {
+  display: flex;
+  gap: 10rem;
+}
+
+.image-peli {
+  width: 30rem;
+}
+
+.parrafo {
+  color: white;
+}
+
+.content-descripcion {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container-comentario {
+  margin-top: 3rem;
+}
+
+.comentario {
+  text-align: left;
+  margin: 1.5rem;
+}

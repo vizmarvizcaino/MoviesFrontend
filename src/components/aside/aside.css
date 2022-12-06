@@ -1,0 +1,25 @@
+.aside {
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.9rem;
+  gap: 3rem;
+}
+
+.link-aside {
+  color: white;
+  text-decoration: none;
+}
+
+.container-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icons-list {
+  color: white;
+  font-size: 2.5rem;
+}

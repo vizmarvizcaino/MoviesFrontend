@@ -1,0 +1,21 @@
+.container-comentarios-internos {
+  min-width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.comentarios-sub {
+  min-width: 70%;
+  background-color: rgba(224, 223, 223, 0.397);
+  border-radius: 7px;
+  padding: .5rem;
+}
+
+.nombre-user {
+  text-align: left;
+}
+
+.comentario-contenido {
+  text-align: left;
+}

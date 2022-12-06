@@ -1,0 +1,9 @@
+.categorias-pelis, .categoria-titulo {
+  color: white;
+}
+
+.container-category{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}

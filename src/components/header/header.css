@@ -1,0 +1,70 @@
+.header {
+  width: 83.2%;
+  height: 5rem;
+  background-color: #1a2537;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: white;
+}
+
+.input-header {
+  height: 2rem;
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.logo {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+.icons {
+  color: white;
+  font-size: 3rem;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.buttons-session {
+  border: none;
+  width: 10rem;
+  color: white;
+  font-size: 15px;
+  background: cadetblue;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.buttons-session:hover {
+  background: #1a2537;
+}
+
+.search-principal {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.button-search {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-search:hover {
+  cursor: pointer;
+}
